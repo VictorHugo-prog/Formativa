@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+* {
+    text-align: center;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 25px;
+    background-color: #108e07;
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.contato {
+    text-decoration: none;
+    background-color: white;
+    color: #108e07;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.contato:hover {
+    background-color: #f4f4f4;
+}
+
+
+center h1,
+center h2,
+center h3 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.center img {
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.galeria img {
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.galeria img:hover {
+    transform: scale(1.2);
+}
+
+span {
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 24px;
+    margin: 30px;
+    padding: 10px;
+    margin-inline: 50px
+}
+
+li {
+    margin-inline: 300px
+}
+
+h2 {
+    font-size: 45px;
+    background-color: #108e07;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-inline: 200px
+}
+
+.videos {
+    border-radius: 15px;
+    width: 50%;
+    height: 50%;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: auto;
+
+}
+
+ul {
+    font-size: 25px;
+    margin: 50px;
+    padding: 15px;
+}
+
+.tabela {
+    width: 1150px;
+    height: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+h3 {
+    font-size: 40px;
+    background-color: #1aa710;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-inline: 400px
+}
+
+.contt {
+    background-color: #108e07;
+
+
+}
